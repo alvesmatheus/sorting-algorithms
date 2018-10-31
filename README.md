@@ -7,7 +7,7 @@ Universidade Federal de Campina Grande.</p>
 ## Objetivo ##
 
 <p align="justify">A disponibilização de todo o código aqui presente visa auxiliar alunos da referida disciplina em seus
-estudos. Entrentanto, as implementações não devem ser utilizadas em atividades avaliativas de qualquer
+estudos. Entretanto, as implementações não devem ser utilizadas em atividades avaliativas de qualquer
 tipo, sendo particularmente inadequadas para as submissões de LEDA.</p>
 
 ## Índice ##
