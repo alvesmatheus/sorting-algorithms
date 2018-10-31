@@ -1,4 +1,4 @@
-package abstractSorting;
+package abstractions;
 
 /**
  * This abstract class will be used as parent of all the future sorting
@@ -10,13 +10,12 @@ public abstract class AbstractSorting<T extends Comparable<T>> implements Sortin
 	/**
 	 * This method will apply the sorting algorithm on the complete array.
 	 * 
-	 * @param array
-	 *            The target array of the sorting algorithm.
+	 * @param array The target array of the sorting algorithm.
 	 * 
 	 */
 	@Override
 	public void sort(T[] array) {
-		sort(array, 0, array.length - 1);
+		this.sort(array, 0, array.length - 1);
 	}
 
 	/**
@@ -25,12 +24,9 @@ public abstract class AbstractSorting<T extends Comparable<T>> implements Sortin
 	 * leftIndex and/or rightIndex are outside the array limits, this method will do
 	 * absolutely nothing.
 	 * 
-	 * @param array
-	 *            The target array of the sorting algorithm.
-	 * @param leftIndex
-	 *            The index where the sorting should begin.
-	 * @param rightIndex
-	 *            The index where the sorting should end.
+	 * @param array      The target array of the sorting algorithm.
+	 * @param leftIndex  The index where the sorting should begin.
+	 * @param rightIndex The index where the sorting should end.
 	 * 
 	 */
 	public abstract void sort(T[] array, int leftIndex, int rightIndex);
